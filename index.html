@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>>>> exe gotNerd</title>
+   <!--stylesheetCSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+    <!--bootStrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+    <!--jqueryCDN-->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div style="text-align: center;" class="container-fluid">
+<h1>gotNerd?</h1>
+
+<div id="countDwn">
+    <div id="seconds"></div>
+</div>
+
+<form id="quiz" name="quiz">
+  
+  <div class="container" id="qAyeOne">
+    <p>When was the first computer invented?</p>
+    <input type="radio" id="q1c" name="question1" value="1943">1943<br>
+    <input type="radio" id="q1c" name="question1" value="1639">1639<br>
+    <input type="radio" id="q1c" name="question1" value="1812">1812<br>
+        
+        <button class="btn-info" id="qOneChk">See if you were right ;)</button>
+  </div>
+  <br>
+
+  <div class="container" id="qAyeTwo">
+    <p>Who saved Apple from going bankrupt in the '90s?</p>
+    <input type="radio" id="q2c" name="question2" value="Bill Gates">Bill Gates<br>
+    <input type="radio" id="q2c" name="question2" value="Steve Jobs">Steve Jobs<br>
+    <input type="radio" id="q2c" name-"question2" value="Michael Dell">Michael Dell<br>
+        
+        <button class="btn-danger" id="qTwoChk">See if you're right!</button>
+  </div>  
+    <br>
+
+  <div class="container" id="qAyeThree">
+    <p>What's the capital of New York?</p>
+    <input type="radio" id="q3c" name="question3" value="New York City">New York City<br>
+    <input type="radio" id="q3c" name="question3" value="Munchinland">Munchinland<br>
+    <input type="radio" id="q3c" name="question3" value="Albany">Albany<br>
+        
+        <button class="btn-primary" id="QThreeChk">hahaha</button>
+    <br>
+  </div>  
+    <input id="button" type="button" value="Submit answers!" onclick="checkFinRes();">
+
+</div>
+</form>
+
+<div id="afterSub">
+    <p id="amtCorrect"></p>
+</div>
+
+<script src="assets/javascript/trivia.js"></script>
+
+</body>
+</html>
