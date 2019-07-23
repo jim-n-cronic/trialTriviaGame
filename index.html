@@ -2,13 +2,13 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <title>>>> exe gotNerd</title>
-   <!--stylesheetCSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>>>> exe gotNerd?</title>
    
     <!--bootStrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <!--stylesheetCSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     
     <!--jqueryCDN-->
@@ -19,8 +19,10 @@
 
 </head>
 <body>
-<div style="text-align: center;" class="container-fluid">
-<h1>gotNerd?</h1>
+<body>
+
+<div class="container-fluid gameBody text-center">
+<h1 class="gameTitle">gotNerd?</h1>
 
 <div id="countDwn">
     <div id="seconds"></div>
@@ -30,31 +32,33 @@
   
   <div class="container" id="qAyeOne">
     <p>When was the first computer invented?</p>
-    <input type="radio" id="q1c" name="question1" value="1943">1943<br>
-    <input type="radio" id="q1c" name="question1" value="1639">1639<br>
-    <input type="radio" id="q1c" name="question1" value="1812">1812<br>
+    <input type="radio" id="q1c1" name="question1" value="1943" onclick="click()">1943<br>
+    <input type="radio" id="q1c2" name="question1" value="1639" onclick="click()">1639<br>
+    <input type="radio" id="q1c3" name="question1" value="1812" onclick="click()">1812<br>
         
-        <button class="btn-info" id="qOneChk">See if you were right ;)</button>
+        <button class="btn-info" id="qOneChk" onclick="click()">Click for a surprise!</button>
   </div>
   <br>
 
   <div class="container" id="qAyeTwo">
     <p>Who saved Apple from going bankrupt in the '90s?</p>
-    <input type="radio" id="q2c" name="question2" value="Bill Gates">Bill Gates<br>
-    <input type="radio" id="q2c" name="question2" value="Steve Jobs">Steve Jobs<br>
-    <input type="radio" id="q2c" name-"question2" value="Michael Dell">Michael Dell<br>
+    <input type="radio" id="q2c1" name="question2" value="Bill Gates" onclick="click()">Bill Gates<br>
+    <input type="radio" id="q2c2" name="question2" value="Steve Jobs" onclick="click()">Steve Jobs<br>
+    <input type="radio" id="q2c3" name-"question2" value="Michael Dell" onclick="click()">Michael Dell<br>
         
-        <button class="btn-danger" id="qTwoChk">See if you're right!</button>
+        <button class="btn-danger" id="qTwoChk" onclick="click()">"Button-button on the div..."</button>
+        
   </div>  
     <br>
 
-  <div class="container" id="qAyeThree">
-    <p>What's the capital of New York?</p>
-    <input type="radio" id="q3c" name="question3" value="New York City">New York City<br>
-    <input type="radio" id="q3c" name="question3" value="Munchinland">Munchinland<br>
-    <input type="radio" id="q3c" name="question3" value="Albany">Albany<br>
+  <div class="container"  id="qAyeThree">
+    <p>What is the purpose of using the Golden Ratio (Phi)?</p>
+    <input type="radio" id="q3c1" name="question3" value="Analyze the volatility of the stock market" onclick="click()">Analyze the volatility of the stock market!<br>
+    <input type="radio" id="q3c2" name="question3" value="It helps one take fireeee pics for Instagram!" onclick="click()">It helps one take fireeee pics for Instagram!<br>
+    <input type="radio" id="q3c3" name="question3" value="Understand the nature of natural occurances!" onclick="click()">Understand the nature of natural occurances!<br>
+    <input type="radio" id="q3c4" name="question3" value="All of the above!" onclick="click()">All of the above!<br>
         
-        <button class="btn-primary" id="QThreeChk">hahaha</button>
+        <button class="btn-primary" id="QThreeChk" onclick="click()">"...Anther gif in just a jiff!"</button>
     <br>
   </div>  
     <input id="button" type="button" value="Submit answers!" onclick="checkFinRes();">

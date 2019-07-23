@@ -1,9 +1,35 @@
 /**/
+.gameTitle {
+    color: white;
+};
+
+#countDwn{
+    color: white;
+    background-color:white
+};
+
+
+#qAyeOne {
+    color: white;
+    
+};
 
 
 
+#qAyeTwo {
+    color: white;
+};
+
+#qAyeThree {
+    color: white;
+}
+
+.gameBody{
+    background-image: url(../images/webt-woman-in-math-lead.jpg.pc-adaptive.full.medium.jpeg)
+}
 
 #afterSub {
+    color: white;
     visibility: hidden;
     text-align: center;
 };
