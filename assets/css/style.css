@@ -1,35 +1,40 @@
-/**/
-.gameTitle {
-    color: white;
-};
-
-#countDwn{
-    color: white;
-    background-color:white
-};
-
-
-#qAyeOne {
-    color: white;
-    
-};
-
-
-
-#qAyeTwo {
-    color: white;
-};
-
-#qAyeThree {
-    color: white;
-}
-
-.gameBody{
-    background-image: url(../images/webt-woman-in-math-lead.jpg.pc-adaptive.full.medium.jpeg)
-}
-
-#afterSub {
-    color: white;
-    visibility: hidden;
+.container-fluid {
     text-align: center;
-};
+}
+#gameTitle:hover {
+    font-weight: bolder;
+    color: crimson;
+}
+.btn-primary:hover {
+    font-weight: bolder;
+    background-color: crimson;    
+}
+#time:hover {
+    font-weight: bolder;
+    color: crimson;
+}
+.choice {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.choice:hover {
+    font-weight: bolder;
+    color: crimson;
+}
+.resetBtn {
+    background-color: blue;
+    color: white;
+    border-radius: 8px; 
+    padding-left: 16.18px;
+    padding-right: 16.18px;
+    padding-top: 16.18px;
+    padding-bottom: 16.18px;
+}
+.resetBtn:hover {
+    background-color: crimson;
+    color: white;
+    border-radius: 8px; 
+    font-weight: bolder;
+}
